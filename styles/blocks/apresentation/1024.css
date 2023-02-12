@@ -1,0 +1,14 @@
+@media (min-width: 1024px) {
+  #apresentation {
+    width: 100vw;
+    height: 25rem;
+
+    background-color: var(--primary);
+
+  }
+
+  .apresentation__box-name {
+    display: flex;
+    flex-direction: column;
+  }
+}
