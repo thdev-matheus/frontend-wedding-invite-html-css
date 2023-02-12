@@ -8,7 +8,9 @@
     justify-content: flex-end;
     align-items: center;
 
-    padding-bottom: 3rem;
+    /* padding-bottom: 5rem; */
+
+    box-shadow: 0 2px 5px 0 var(--txt-primary);
 
     background-color: var(--primary);
 
@@ -26,7 +28,7 @@
     position: relative;
     top: -3.1rem;
 
-    font-family: "Babylonica";
+    font-family: var(--handwrite);
     font-weight: bold;
 
     color: var(--txt-primary);
@@ -52,7 +54,7 @@
   }
 
   .apresentation__title {
-    font-family: "Playfair";
+    font-family: var(--serif);
     font-size: 25pt;
     font-weight: normal;
 
@@ -66,6 +68,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: relative;
+    top: -115px;
+
+    margin-top: 5rem;
 
   }
 

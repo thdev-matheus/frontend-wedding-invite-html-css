@@ -1,5 +1,11 @@
 :root {
+  --handwrite: "Babylonica";
+  --serif: "Playfair";
+  --sans-serif: "Roboto";
+
   --primary: #C0CBCE;
+  --secondary: #CA6C6F;
+  --tertiary: #7d1333;
 
   --txt-primary: #29373A;
   --txt-secondary: #fff;
