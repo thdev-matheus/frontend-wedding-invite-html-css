@@ -1,0 +1,75 @@
+@media (min-width: 1024px) {
+  #rings {
+    width: 100%;
+    height: 25rem;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    box-shadow: 0 -2px 5px 0 var(--txt-primary);
+
+    background-color: var(--secondary);
+  }
+
+  .rings__box-title {
+    width: 40%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    position: relative;
+    top: -30px;
+
+    padding: 2rem ;
+
+    font-family: var(--serif);
+
+    background-color: var(--tertiary);
+  }
+
+  .rings__title {
+    width: 50%;
+
+    line-height: 2.7rem;
+    font-size: 30pt;
+    
+    color: var(--txt-secondary);
+  }
+  
+  .rings__box-img {
+    width: 25%;
+    height: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    position: relative;
+    top: -90px;
+
+    overflow: hidden;
+  }
+
+  .rings__img {
+    width: 200%;
+  }
+  
+  .rings__box-paragraph {
+    width: 30%;
+    
+    padding: 1rem;
+  }
+  
+  .rings__paragraph {
+    line-height: 1.5rem;
+    font-family: var(--sans-serif);
+    font-style: italic;
+    font-size: 12pt;
+
+    color: var(--txt-secondary);
+  }
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  border: none;
+
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; */
+
+  overflow: hidden auto;
+
+  background-image: url("../../assets/bg-body.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  font-family: var(--sans-serif);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
