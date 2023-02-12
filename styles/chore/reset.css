@@ -12,5 +12,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  overflow: hidden auto;
+
+  background-image: url("../../assets/bg-body.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
   font-family: 'Roboto';
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
