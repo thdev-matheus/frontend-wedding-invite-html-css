@@ -1,4 +1,8 @@
 :root {
   --primary: #C0CBCE;
-  
+
+  --txt-primary: #29373A;
+  --txt-secondary: #fff;
+  --txt-tertiary: #4d6d75;
+
 }
