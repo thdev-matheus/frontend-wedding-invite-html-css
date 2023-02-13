@@ -3,9 +3,11 @@
   --serif: "Playfair";
   --sans-serif: "Roboto";
 
-  --primary: #C0CBCE;
+  --primary: #f7edeb;
   --secondary: #CA6C6F;
-  --tertiary: #7d1333;
+  --tertiary: #af1b48;
+  --quaternary: #e2949d;
+  --quinternary: #C3CBD7;
 
   --txt-primary: #29373A;
   --txt-secondary: #fff;
