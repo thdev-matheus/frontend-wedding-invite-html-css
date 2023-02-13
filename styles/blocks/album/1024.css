@@ -7,7 +7,12 @@
     align-items: center;
     gap: .5rem;
 
+    position: relative;
+    z-index: 100;
+
     padding: 2rem;
+
+    box-shadow: 0 0 5px 2px var(--txt-primary);
 
     background-color: var(--quinternary);
   }
