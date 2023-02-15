@@ -1,0 +1,42 @@
+@media (min-width: 767px) {
+  #brief {
+    width: 100vw;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .brief__aside {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 2rem;
+
+    box-shadow: 2px 0 5px 0 var(--txt-primary);
+
+    text-align: center;
+
+    background-color: var(--quaternary);
+  }
+
+  .brief__title {
+    font-size: 35pt;
+    font-family: var(--serif);
+
+    color: var(--txt-primary);
+
+  }
+
+  .briref__paragraph {
+    font-size: 14pt;
+    font-family: var(--serif);
+
+    color: var(--txt-primary);
+  }
+}
