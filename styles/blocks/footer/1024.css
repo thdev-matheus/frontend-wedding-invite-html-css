@@ -30,10 +30,16 @@
 
     border-radius: 50%;
 
-    box-shadow: 2px 2px 5px 0 var(--txt-primary);
+    box-shadow: 1px 1px 3px 0 var(--txt-primary);
 
     background-color: var(--quaternary);
-  } 
+
+    transition: 0.5s;
+  }
+
+  .box-up:hover {
+    transform: scale(1.2) rotate(360deg);
+  }
 
   .arrow-up {
     width: 50px;
@@ -51,11 +57,18 @@
 
     position: relative;
     top: -25%;
-
   }
-
+  
   .social-icon {
     width: 35px;
     height: 35px;
+    
+    cursor: pointer;
+
+    transition: 1.5s;
+  }
+
+  .social-icon:hover {
+    transform: scale(1.2) rotate(15deg);
   }
 }
