@@ -24,7 +24,7 @@
     position: relative;
     top: -30px;
 
-    padding: 2rem ;
+    padding: 1rem;
 
     font-family: var(--serif);
 
@@ -32,10 +32,10 @@
   }
 
   .rings__title {
-    width: 50%;
+    width: 60%;
 
     line-height: 2.7rem;
-    font-size: 30pt;
+    font-size: 27pt;
     
     color: var(--txt-secondary);
   }
@@ -65,7 +65,7 @@
   }
   
   .rings__paragraph {
-    line-height: 1.5rem;
+    line-height: 1.2rem;
     font-family: var(--sans-serif);
     font-style: italic;
     font-size: 12pt;
