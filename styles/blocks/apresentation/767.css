@@ -1,7 +1,7 @@
 @media (min-width: 767px) {
   #apresentation {
     width: 100vw;
-    height: 25rem;
+    height: 22rem;
 
     display: flex;
     flex-direction: column;
