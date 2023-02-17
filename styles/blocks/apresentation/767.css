@@ -69,18 +69,18 @@
     align-items: center;
 
     position: relative;
-    top: -115px;
+    top: -70px;
 
     margin-top: 5rem;
 
   }
 
   .crown__part1 {
-    width: 40%;
+    width: 45%;
   }
   
   .crown__part2 {
-    width: 40%;
+    width: 45%;
     transform: matrix(-1, 0, 0, 1, 0, 0);
   }
 }
