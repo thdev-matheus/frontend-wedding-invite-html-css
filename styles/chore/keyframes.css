@@ -1,0 +1,19 @@
+@keyframes letf-to-right {
+  from {
+    transform: translateX(-100);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes right-to-left {
+  from {
+    transform: translateX(100);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
