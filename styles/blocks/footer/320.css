@@ -1,7 +1,7 @@
 @media (min-width: 320px) {
   #footer {
     width: 100vw;
-    height: 8rem;
+    height: 5rem;
 
     display: flex;
     flex-direction: column;
@@ -17,16 +17,16 @@
   }
 
   .box-up {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     position: relative;
-    top: -45px;
-    right: -330px;
+    top: -25px;
+    right: -125px;
 
     border-radius: 50%;
 
@@ -42,8 +42,8 @@
   }
 
   .arrow-up {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
 
   }
 
@@ -53,15 +53,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.2rem;
 
     position: relative;
     top: -25%;
   }
   
   .social-icon {
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     
     cursor: pointer;
 
