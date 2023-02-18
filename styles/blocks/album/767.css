@@ -1,85 +1,13 @@
 @media (min-width: 767px) {
   #album {
-    width: 100vw;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .5rem;
-
-    position: relative;
-    z-index: 100;
-
-    padding: 2rem;
-
-    box-shadow: 0 0 5px 2px var(--txt-primary);
-
-    background-color: var(--quinternary);
+    flex-direction: row;
   }
 
   .album__box-left {
     width: 45%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: .5rem;
   }
   
   .album__box-right {
     width: 45%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: .5rem;
-  }
-
-  .landscape {
-    width: 100%;
-  }
-
-  .pair {
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .5rem;
-  }
-
-  .portrait {
-    width: 100%;
-  }
-
-  .album__photo {
-    width: 100%;
-
-    border-radius: 1rem;
-
-    box-shadow: 2px 2px 5px 0 var(--txt-primary);
-
-    transition: 1.5s;
-  }
-  
-  .album__photo:hover{
-    transform: scale(1.3) rotate(10deg);
-  }
-  
-  .album__photo-half {
-    width: 49%;
-
-    border-radius: 1rem;
-
-    box-shadow: 1px 1px 3px 0 var(--txt-primary);
-
-    transition: 1.5s;
-  }
-
-  .album__photo-half:hover {
-    transform: scale(1.5) rotate(10deg);
-  }
-  
+  }  
 }

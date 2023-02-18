@@ -19,20 +19,21 @@ body {
   width: 100vw;
   height: 100vh;
 
-  /* display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; */
-
   overflow: hidden auto;
 
   background-image: url("../../assets/bg-body.jpg");
-  background-position: center;
+  background-position: -330px;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   
   font-family: var(--sans-serif);
+}
+
+@media (min-width: 767px) {
+  body {
+    background-position: center;
+  }
 }
 
 body::-webkit-scrollbar {
