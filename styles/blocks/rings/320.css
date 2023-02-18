@@ -1,7 +1,7 @@
 @media (min-width: 320px) {
   #rings {
     width: 100%;
-    height: 25rem;
+    height: 22rem;
 
     display: flex;
     justify-content: flex-start;
@@ -13,8 +13,8 @@
   }
 
   .rings__box-title {
-    width: 40%;
-    height: 50%;
+    width: 32%;
+    height: 40%;
 
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
     align-items: flex-end;
 
     position: relative;
-    top: -30px;
+    top: -50px;
 
     padding: 1rem;
 
@@ -32,16 +32,16 @@
   }
 
   .rings__title {
-    width: 60%;
+    width: 90%;
 
-    line-height: 2.7rem;
-    font-size: 27pt;
+    line-height: 1.2rem;
+    font-size: 10pt;
     
     color: var(--txt-secondary);
   }
   
   .rings__box-img {
-    width: 25%;
+    width: 30%;
     height: 90%;
 
     display: flex;
@@ -49,7 +49,7 @@
     align-items: flex-start;
     
     position: relative;
-    top: -90px;
+    top: -45px;
 
     overflow: hidden;
   }
@@ -59,16 +59,16 @@
   }
   
   .rings__box-paragraph {
-    width: 30%;
+    width: 48%;
     
     padding: 1rem;
   }
   
   .rings__paragraph {
-    line-height: 1.2rem;
+    line-height: 0.9rem;
     font-family: var(--sans-serif);
     font-style: italic;
-    font-size: 12pt;
+    font-size: 8pt;
 
     color: var(--txt-secondary);
   }
