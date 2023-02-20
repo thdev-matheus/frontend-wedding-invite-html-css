@@ -23,7 +23,17 @@
     text-align: center;
 
     background-color: var(--quaternary);
+
+    opacity: 1;
+
+    animation-name: letf-to-right;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-play-state: running;
   }
+
 
   .brief__title {
     font-size: 18pt;
