@@ -29,6 +29,16 @@
     font-family: var(--serif);
 
     background-color: var(--tertiary);
+
+    transform-origin: left;
+    opacity: 0;
+
+    animation-name: stretch;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
   }
 
   .rings__title {
@@ -52,6 +62,15 @@
     top: -45px;
 
     overflow: hidden;
+
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
   }
 
   .rings__img {
@@ -62,6 +81,15 @@
     width: 48%;
     
     padding: 1rem;
+    
+    opacity: 0;
+
+    animation-name: right-to-left;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in;
+    animation-delay: 1.4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
   }
   
   .rings__paragraph {

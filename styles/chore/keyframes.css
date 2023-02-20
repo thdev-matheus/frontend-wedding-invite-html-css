@@ -1,26 +1,30 @@
 @keyframes letf-to-right {
   from {
-    transform: translateX(-100);
+    transform: translateX(-100px);
+    opacity: 0;
   }
-
+  
   to {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
 @keyframes right-to-left {
   from {
-    transform: translateX(100);
+    transform: translateX(100px);
+    opacity: 0;
   }
-
+  
   to {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
 @keyframes fade-in {
   from {
-    opacity: 0.5;
+    opacity: 0;
   }
 
   to {
@@ -35,5 +39,37 @@
 
   to {
     opacity: 0;
+  }
+}
+
+@keyframes swing {
+  25% {
+    transform: translate(10px, 10px);
+    opacity: 0.8;
+  }
+  
+  50% {
+    transform: translate(5px, 7px);
+  }
+
+  75% {
+    transform: translate(7px, 3px);
+  }
+  
+  to {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
+@keyframes stretch {
+  from {
+    transform: scaleX(0%);
+    opacity: 0;
+  }
+
+  to {
+    transform: scaleX(100%);
+    opacity: 1;
   }
 }
