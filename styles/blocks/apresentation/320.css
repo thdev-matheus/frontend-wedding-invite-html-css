@@ -33,6 +33,15 @@
   
   .john {
     font-size: 40pt;
+
+    opacity: 0;
+
+    animation-name: letf-to-right;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
   }
   
   .and {
@@ -40,6 +49,15 @@
     top: -1.8rem;
 
     font-size: 25pt;
+
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
   }
   
   .sara {
@@ -48,6 +66,15 @@
     right: -3.1rem;
 
     font-size: 40pt;
+
+    opacity: 0;
+
+    animation-name: right-to-left;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in;
+    animation-delay: 1.4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
   }
 
   .apresentation__title {
@@ -56,6 +83,15 @@
     font-weight: bold;
 
     color: var(--txt-tertiary);
+
+    opacity: 0;
+
+    animation-name: fade-in;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
   }
 
   .crown {
@@ -70,6 +106,13 @@
     top: -10px;
 
     margin-top: 5rem;
+
+    animation-name: swing;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 1.8s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
 
   }
 
